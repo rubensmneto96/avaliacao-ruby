@@ -63,6 +63,18 @@ def func_array_mult(array)
   arrSplit += arrSplit * 5
 end
 
+def quantKeysValues(hash)
+  hash.length
+end
+
+def invertHash(hash)
+  hash.invert
+end
+
+def hashSul(sul)
+  puts sul
+end
+
 def railsPostgreSQL
   puts "rails new app -d postgresql"
 end
